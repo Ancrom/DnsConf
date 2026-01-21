@@ -16,7 +16,6 @@ jobs:
       REDIRECT: ${{ vars.REDIRECT }}
 
       env:
-      NEXTDNS_PROFILE_ID: ${{ vars.NEXTDNS_PROFILE_ID }}
       CLIENT_ID: ${{ secrets.CLIENT_ID }}
       AUTH_SECRET: ${{ secrets.AUTH_SECRET }}
 
